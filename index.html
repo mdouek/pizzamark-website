@@ -31,7 +31,7 @@
 <!-- SEO Meta Tags -->
 <title>Pizza Mark LA — Best Kosher Pizza in Los Angeles | Robertson Blvd</title>
 <meta name="description" content="Pizza Mark serves the best kosher pizza in Los Angeles. RCC Kosher certified, Cholov Yisroel & Pas Yisroel. Pizza, pasta, salads, falafel & more. Order online or call 424-523-3131. Located at 1708 S Robertson Blvd, LA 90035.">
-<meta name="keywords" content="kosher pizza Los Angeles, kosher restaurant LA, pizza delivery Robertson Blvd, Cholov Yisroel pizza, Pas Yisroel, RCC kosher, Rabbinical Council of California, best kosher pizza LA, Pizza Mark, kosher food Los Angeles, pizza near me, kosher catering LA">
+<meta name="keywords" content="kosher pizza Los Angeles, kosher restaurant LA, kosher pizza delivery Pico Robertson, Cholov Yisroel pizza, Pas Yisroel, RCC kosher certified, Rabbinical Council of California, best kosher pizza LA, Pizza Mark, kosher food Los Angeles, pizza near me 90035, kosher catering Los Angeles, kosher pizza near Beverly Hills, glatt kosher pizza, kosher pizzeria Robertson Blvd, kosher falafel Los Angeles, kosher pasta LA, Pico Robertson restaurants">
 <link rel="canonical" href="https://www.pizzamarkla.com">
 
 <!-- Open Graph -->
@@ -80,8 +80,29 @@
   "image": "https://www.pizzamarkla.com/assets/logo.jpg",
   "logo": "https://www.pizzamarkla.com/assets/logo.jpg",
   "description": "Best kosher pizza in Los Angeles. Pizza, pasta, salads, falafel and more. RCC Kosher certified, Cholov Yisroel and Pas Yisroel.",
-  "servesCuisine": ["Pizza", "Italian", "Kosher", "Mediterranean"],
+  "servesCuisine": ["Pizza", "Italian", "Kosher", "Mediterranean", "Falafel", "Israeli"],
   "priceRange": "$$",
+  "areaServed": {
+    "@type": "City",
+    "name": "Los Angeles",
+    "sameAs": "https://en.wikipedia.org/wiki/Los_Angeles"
+  },
+  "keywords": "kosher pizza, kosher restaurant, Cholov Yisroel, Pas Yisroel, RCC kosher, Pico Robertson, kosher delivery, kosher catering",
+  "knowsAbout": ["Kosher food", "Pizza", "Cholov Yisroel", "Pas Yisroel"],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Pizza Mark Menu",
+    "itemListElement": [
+      { "@type": "OfferCatalog", "name": "Pizza" },
+      { "@type": "OfferCatalog", "name": "Pasta" },
+      { "@type": "OfferCatalog", "name": "Salads" },
+      { "@type": "OfferCatalog", "name": "Falafel" },
+      { "@type": "OfferCatalog", "name": "Calzones" },
+      { "@type": "OfferCatalog", "name": "Panini" },
+      { "@type": "OfferCatalog", "name": "Burekas" },
+      { "@type": "OfferCatalog", "name": "Catering" }
+    ]
+  },
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "1708 S Robertson Blvd",
@@ -110,8 +131,25 @@
   "currenciesAccepted": "USD",
   "sameAs": [
     "https://www.instagram.com/pizzamarkla",
-    "https://www.facebook.com/pizzamarkla/"
+    "https://www.facebook.com/pizzamarkla/",
+    "https://www.yelp.com/biz/pizza-mark-los-angeles-2",
+    "https://pizzamarkmenu.com"
   ],
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://pizzamarkmenu.com",
+      "actionPlatform": ["http://schema.org/DesktopWebPlatform", "http://schema.org/MobileWebPlatform"]
+    },
+    "deliveryMethod": ["http://purl.org/goodrelations/v1#DeliveryModeOwnFleet", "http://purl.org/goodrelations/v1#DeliveryModePickUp"]
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.5",
+    "reviewCount": "83",
+    "bestRating": "5"
+  },
   "creator": {
     "@type": "SoftwareApplication",
     "name": "Perplexity Computer",
@@ -153,6 +191,64 @@
         { "@type": "MenuItem", "name": "Caesar Salad", "description": "Romaine, croutons, parmesan, Caesar dressing", "offers": { "@type": "Offer", "price": "12.99", "priceCurrency": "USD" } },
         { "@type": "MenuItem", "name": "Greek Salad", "description": "Romaine, Feta cheese, black olives, tomatoes, red onions, cucumbers", "offers": { "@type": "Offer", "price": "18.99", "priceCurrency": "USD" } }
       ]
+    }
+  ]
+}
+</script>
+
+<!-- FAQ Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is Pizza Mark kosher certified?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Pizza Mark is certified kosher by the RCC (Rabbinical Council of California). We are fully Cholov Yisroel and Pas Yisroel compliant. Every ingredient we use meets the highest kosher standards."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is Pizza Mark located?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pizza Mark is located at 1708 S Robertson Blvd, Los Angeles, CA 90035, in the heart of the Pico-Robertson neighborhood. We're just minutes from Beverly Hills, Mid-City, and the Fairfax District."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Pizza Mark offer delivery?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. You can order delivery or pickup through our online ordering system at pizzamarkmenu.com (powered by Slice). You can also call us at 424-523-3131 for pickup or curbside orders."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are Pizza Mark's hours?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Monday-Wednesday: 10:30 AM - 7:45 PM, Thursday: 10:30 AM - 8:45 PM, Friday: 10:30 AM - 2:30 PM (before Shabbat), Saturday: 7:00 PM - 11:15 PM (after Shabbat), Sunday: 10:00 AM - 8:30 PM."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What type of pizza does Pizza Mark serve?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We serve kosher pizzas in 10-inch, 14-inch, and 18-inch sizes including Cheese, Vegetable, Pesto, White, Margherita, Mac and Cheese, Greek, Pepperoni (vegan), BBQ, and Mushroom and Onion. We also offer calzones, pasta, falafel, panini, salads, burekas, and more."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Pizza Mark offer catering?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We offer kosher catering for parties, events, and group orders in the Los Angeles area. Our catering menu includes pizza packages, pasta trays, salad platters, and more. Call 424-523-3131 for a custom quote."
+      }
     }
   ]
 }
@@ -653,6 +749,57 @@
     </div>
   </div>
 </section>
+
+<!-- ===================== FAQ ===================== -->
+<section class="section" id="faq" aria-label="Frequently Asked Questions">
+  <div class="container">
+    <div class="section__header fade-up">
+      <h2>Frequently Asked <span>Questions</span></h2>
+      <p class="section__subtitle">Everything you need to know about Pizza Mark</p>
+    </div>
+    <div class="faq-list fade-up">
+      <details class="faq-item" open>
+        <summary class="faq-item__q">Is Pizza Mark kosher certified?</summary>
+        <div class="faq-item__a">
+          <p>Yes. Pizza Mark is certified kosher by the RCC (Rabbinical Council of California). We are fully Cholov Yisroel and Pas Yisroel compliant. Every ingredient we use meets the highest kosher standards, so you can enjoy our food with complete confidence.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-item__q">Where is Pizza Mark located?</summary>
+        <div class="faq-item__a">
+          <p>We're located at 1708 S Robertson Blvd, Los Angeles, CA 90035 — in the heart of the Pico-Robertson neighborhood, one of LA's most vibrant kosher dining areas. We're just minutes from Beverly Hills, Mid-City, and the Fairfax District.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-item__q">Does Pizza Mark offer delivery?</summary>
+        <div class="faq-item__a">
+          <p>Yes. You can order delivery or pickup through our online ordering system at <a href="https://pizzamarkmenu.com" target="_blank" rel="noopener noreferrer">pizzamarkmenu.com</a> (powered by Slice). You can also call us directly at <a href="tel:+14245233131">424-523-3131</a> to place an order for pickup or curbside.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-item__q">What are Pizza Mark's hours?</summary>
+        <div class="faq-item__a">
+          <p>Monday–Wednesday: 10:30 AM – 7:45 PM, Thursday: 10:30 AM – 8:45 PM, Friday: 10:30 AM – 2:30 PM (before Shabbat), Saturday: 7:00 PM – 11:15 PM (after Shabbat), Sunday: 10:00 AM – 8:30 PM. Friday and Saturday hours adjust seasonally for Shabbat.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-item__q">What type of pizza does Pizza Mark serve?</summary>
+        <div class="faq-item__a">
+          <p>We serve a wide variety of kosher pizzas available in 10", 14", and 18" sizes. Our menu includes Cheese, Vegetable, Pesto, White, Margherita, Mac & Cheese, Greek, Pepperoni (vegan), BBQ, and Mushroom & Onion pizzas. We also offer pizza by the slice, plus specialty items like calzones, pasta, falafel, panini, salads, burekas, and more.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-item__q">Does Pizza Mark offer catering?</summary>
+        <div class="faq-item__a">
+          <p>Yes. We offer kosher catering for parties, events, and group orders in the Los Angeles area. Our catering menu includes pizza packages, pasta trays, salad platters, and more. Call us at <a href="tel:+14245233131">424-523-3131</a> to discuss your event needs and get a custom quote.</p>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- Checkerboard Divider -->
+<div class="checker-border" aria-hidden="true"></div>
 
 <!-- ===================== CONTACT ===================== -->
 <section class="section" id="contact" aria-label="Contact and location">
